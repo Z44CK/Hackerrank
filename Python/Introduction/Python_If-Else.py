@@ -32,3 +32,18 @@ else:
         print "Weird"
     elif N > 20:
         print "Not Weird"
+# -------------------------------------------------------------
+# syntax that is specific to Python 2.x. In Python 3.x, the raw_input() 
+# function has been replaced by the input() function. Also, in Python 3.x, you don't need to call the strip() method on input.
+n = int(input())
+
+if n % 2 != 0:
+    print("Weird")
+else:
+    if (n >= 2) and (n <= 5):
+        print("Not Weird")
+    elif (n >= 6) and (n <= 20):
+        print("Weird")
+    else:
+        print("Not Weird")
+
